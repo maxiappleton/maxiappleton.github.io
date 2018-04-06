@@ -46,6 +46,7 @@ a {
 
 a:hover {
 	color: #000000;
+	text-decoration: underline;
 }
 
 a img { border: 0; }
@@ -170,12 +171,16 @@ section {
 	height: 200px;
 	max-width: 100%;
 	float: left;
-	margin: 0 15px 0 0;
+	margin: 0 20px 0 0;
 	padding: 5px;
 	background-color: #fff;
 }
 
-.bold-profile-info { font-size: 0.875em; }
+.bold-contacts {
+	line-height: 35px;
+	padding-top: 10px;
+	margin: 0;
+}
 
 
 .bold-contacts i {
@@ -216,26 +221,42 @@ h2.section-title {
 
 #projects h3 {
 	font-weight: 200;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 #projects h3 a {
-	text-decoration: underline;
 	margin-right: 20px;
+	background: white;
+	color: black;
+	border-radius: 5px;
+	padding: 3px 10px;
+	border: 1px solid black;
+	font-size: 16px;
 }
 
 #projects h3 a:hover {
-	color: black;
+	color: white;
+	background: #065FB2;
+	text-decoration: underline;
 }
 
 #projects .tools {
 	padding: 10px 0;
 }
 
+#projects .tools h3 {
+	font-size: 16px;
+	color: #A8A9AB;
+	margin: 10px 0 5px 0;
+}
+
+.project-img-container {
+	max-width: 500px;
+}
+
 #projects img {
 	border: solid 1px #D9DBDB;
 	border-radius: 10px;
-	max-width: 500px;
 }
 
 /* 3.4 Skills */
